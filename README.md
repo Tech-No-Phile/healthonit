@@ -1,36 +1,80 @@
-This is a [Next.js](https://nextjs.org) project bootstrapped with [`create-next-app`](https://nextjs.org/docs/app/api-reference/cli/create-next-app).
 
-## Getting Started
 
-First, run the development server:
+# 🩺 HealthOnIt – AI-Powered Symptom Checker & Diet Planner
+
+HealthOnIt is an intelligent **health assistant** built with **Next.js**, designed to analyze user symptoms, provide a potential diagnosis, and generate **personalized diet plans** – all in real-time.  
+It’s fast, intuitive, and aims to make healthcare guidance accessible to everyone.
+
+## 🚀 Features
+- 🤖 **AI Symptom Analysis** – Enter your symptoms and get an instant AI-driven health assessment.
+- 🍎 **Personalized Diet Plans** – Tailored 7-day meal recommendations based on your condition.
+- 🎙 **Voice Input Support** – Use speech-to-text to quickly describe your symptoms.
+- 📄 **Downloadable Reports** – Get your diagnosis and meal plan as a clean PDF.
+- 💬 **Interactive Chat UI** – Conversational design for a smooth, human-like experience.
+- 🗄 **Database Integration** – Save and retrieve user data securely.
+- ⚡ **Fast & Responsive** – Works seamlessly on desktop and mobile.
+
+## 🛠️ Tech Stack
+**Frontend:**
+- [Next.js 15](https://nextjs.org/) – React framework for production-grade apps
+- [TypeScript](https://www.typescriptlang.org/) – Type-safe development
+- TailwindCSS – Rapid UI styling
+- ShadCN/UI – Beautiful UI components
+
+**Backend & APIs:**
+- OpenAI API – Natural language understanding & diet plan generation
+- Custom REST API Routes – For processing and storing data
+- MongoDB / Firebase (if used) – For persistent data storage
+
+**Other Tools & Utilities:**
+- SpeechRecognition API – Voice-to-text
+- pdfmake / jsPDF – PDF generation
+- Vercel – Hosting & deployment
+
+## 📦 Installation & Setup
+Clone the repository and install dependencies:
+```bash
+git clone https://github.com/Tech-No-Phile/healthonit.git
+cd healthonit
+npm install
+````
+
+Run the development server:
 
 ```bash
 npm run dev
-# or
-yarn dev
-# or
-pnpm dev
-# or
-bun dev
 ```
 
-Open [http://localhost:3000](http://localhost:3000) with your browser to see the result.
+Visit [http://localhost:3000](http://localhost:3000) to view the app.
 
-You can start editing the page by modifying `app/page.tsx`. The page auto-updates as you edit the file.
+## 🌐 Live Demo
 
-This project uses [`next/font`](https://nextjs.org/docs/app/building-your-application/optimizing/fonts) to automatically optimize and load [Geist](https://vercel.com/font), a new font family for Vercel.
+🔗 **[Try HealthOnIt Here](https://healthonit.vercel.app/)**
 
-## Learn More
+## 📷 Screenshots
 
-To learn more about Next.js, take a look at the following resources:
+| Symptom Input                      | Diagnosis Result                 | Diet Plan                   |
+| ---------------------------------- | -------------------------------- | --------------------------- |
+| ![symptom](docs/symptom-input.png) | ![diagnosis](docs/diagnosis.png) | ![diet](docs/diet-plan.png) |
 
-- [Next.js Documentation](https://nextjs.org/docs) - learn about Next.js features and API.
-- [Learn Next.js](https://nextjs.org/learn) - an interactive Next.js tutorial.
+## 📚 How It Works
 
-You can check out [the Next.js GitHub repository](https://github.com/vercel/next.js) - your feedback and contributions are welcome!
+1. **Input Symptoms** – Users type or speak their symptoms.
+2. **AI Analysis** – Backend sends data to OpenAI for diagnosis generation.
+3. **Diet Plan Offer** – If applicable, the bot offers a customized 7-day meal plan.
+4. **PDF Download** – Users can download results for offline use.
 
-## Deploy on Vercel
+## 🤝 Contributing
 
-The easiest way to deploy your Next.js app is to use the [Vercel Platform](https://vercel.com/new?utm_medium=default-template&filter=next.js&utm_source=create-next-app&utm_campaign=create-next-app-readme) from the creators of Next.js.
+Contributions are welcome!
+Feel free to fork this repo, make changes, and submit a PR.
 
-Check out our [Next.js deployment documentation](https://nextjs.org/docs/app/building-your-application/deploying) for more details.
+## 📄 License
+
+MIT License – feel free to use, modify, and share.
+
+---
+
+**💡 Built in a 10-hour hackathon with ❤️ by Harsha & Team AVIDUS.**
+
+---
