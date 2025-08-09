@@ -75,6 +75,6 @@ MIT License – feel free to use, modify, and share.
 
 ---
 
-**💡 Built in a 10-hour hackathon with ❤️ by Harsha & Team AVIDUS.**
+**💡 Built in a 10-hour hackathon with ❤️ by Team AVIDUS.**
 
 ---
